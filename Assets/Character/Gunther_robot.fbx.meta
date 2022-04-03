@@ -4,8 +4,20 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
+      74: 6158170095389161815
+    second: Armature|Gunther_FallHold
+  - first:
       74: 6530084055549415788
     second: Armature|Gunther_idle
+  - first:
+      74: -8004774474533258605
+    second: Armature|Gunther_JumpFall
+  - first:
+      74: 6970386087464583906
+    second: Armature|Gunther_JumpToFall
+  - first:
+      74: -2605579634787327656
+    second: Armature|Gunther_land
   - first:
       74: -8226035158627683240
     second: Armature|Gunther_run_cycle
@@ -13,17 +25,9 @@ ModelImporter:
       74: 5152932520002693422
     second: Armature|Gunther_run_end1
   - first:
-      74: -4163465941738548544
-    second: Armature|Gunther_run_end2
-  - first:
       74: -9118317632248199020
     second: Armature|Gunther_run_start
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: b9fc265ad5696fc49a751f0b543f0756, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
