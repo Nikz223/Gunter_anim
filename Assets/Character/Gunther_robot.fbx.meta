@@ -1,32 +1,32 @@
 fileFormatVersion: 2
-guid: 9e8e60c2a1dcaf842b984cca6686b15c
+guid: b7c00051404135d439a36180c977a737
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: 6158170095389161815
-    second: Armature|Gunther_FallHold
+      74: 1530248133226092351
+    second: Gunther_Armature|Gunther_FallHold
   - first:
-      74: 6530084055549415788
-    second: Armature|Gunther_idle
+      74: 953251703587029829
+    second: Gunther_Armature|Gunther_idle
   - first:
-      74: -8004774474533258605
-    second: Armature|Gunther_JumpFall
+      74: 4586813070187158985
+    second: Gunther_Armature|Gunther_JumpFall
   - first:
-      74: 6970386087464583906
-    second: Armature|Gunther_JumpToFall
+      74: -8087981699517960753
+    second: Gunther_Armature|Gunther_JumpToFall
   - first:
-      74: -2605579634787327656
-    second: Armature|Gunther_land
+      74: -5639052273076014549
+    second: Gunther_Armature|Gunther_land
   - first:
-      74: -8226035158627683240
-    second: Armature|Gunther_run_cycle
+      74: -8740740399542146471
+    second: Gunther_Armature|Gunther_run_cycle
   - first:
-      74: 5152932520002693422
-    second: Armature|Gunther_run_end1
+      74: 4092877600613157569
+    second: Gunther_Armature|Gunther_run_end1
   - first:
-      74: -9118317632248199020
-    second: Armature|Gunther_run_start
+      74: 5065320717600166095
+    second: Gunther_Armature|Gunther_run_start
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -38,6 +38,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -67,6 +68,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -78,6 +80,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
