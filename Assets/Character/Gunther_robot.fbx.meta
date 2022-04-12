@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: b7c00051404135d439a36180c977a737
+guid: 3ebb1d3ec6f8b094e9b1cd2e633ecce6
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
+  - first:
+      74: -743428994978623288
+    second: Gunther_Armature|Gunther_dancing
   - first:
       74: 1530248133226092351
     second: Gunther_Armature|Gunther_FallHold
@@ -12,6 +15,9 @@ ModelImporter:
   - first:
       74: 4586813070187158985
     second: Gunther_Armature|Gunther_JumpFall
+  - first:
+      74: -1765009585184792336
+    second: Gunther_Armature|Gunther_JumpHold
   - first:
       74: -8087981699517960753
     second: Gunther_Armature|Gunther_JumpToFall
