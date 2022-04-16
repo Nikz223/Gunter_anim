@@ -19,16 +19,18 @@ public class GuntherChangeAnims : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.Keypad0))
         {
-            anim.Play("Gunther_run_start");
-            anim.CrossFade("Gunther_run_cycle",0.01f);
+            anim.SetBool("IsJump",true);
         }
-
+        else
+        {
+            anim.SetBool("IsJump",false);
+        }
         if (Input.GetKey(KeyCode.W))
         {
-          anim.SetBool("IsRun",true);
-          anim.SetBool("IsIdle",false);
+            anim.SetBool("IsRun",true);
+            anim.SetBool("IsIdle",false);
         }
         else
         {
